@@ -28,7 +28,7 @@ html,body{
 }
 #ptop{
     width: 100%;
-    height: 90px;
+    height: 100px;
     background-color: beige;
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@ html,body{
 
 }
 
-#box{
+.box{
     background-color: red;
     height: 10px;
     padding-top: 7px;
@@ -48,10 +48,31 @@ html,body{
     border-radius: 10px;
     margin-left: 10px;
 }
-#elem{
+.elem{
     
     display: flex;
     justify-content: space-between;
     
     
+}
+
+#pbtom{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    
+}
+.bubble{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+
+
+}
+.bubble:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+    cursor: pointer;
 }
