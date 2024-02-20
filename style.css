@@ -59,20 +59,27 @@ html,body{
 #pbtom{
     width: 100%;
     height: calc(100% - 100px);
-    padding: 20px;
-    
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    justify-self:center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 .bubble{
+    display: flex;
     width: 50px;
     height: 50px;
     background-color: blue;
     border-radius: 50%;
     color: white;
-
+    justify-content: center;
+    align-items: center;
 
 }
 .bubble:hover{
-    background-color: blueviolet;
+    background-color: rgb(74, 15, 130);
     border-radius: 20px;
     cursor: pointer;
 }
